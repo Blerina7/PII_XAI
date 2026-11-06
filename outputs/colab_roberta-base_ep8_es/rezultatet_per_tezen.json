@@ -1,0 +1,3100 @@
+{
+ "dokumente_mbi_512_nentokene": 327,
+ "dokumente_trajnim_validim_test": [
+  3193,
+  354,
+  887
+ ],
+ "humbja_mesatare_trajnimit": 0.0086,
+ "koha_trajnimit_min": 14.8,
+ "tabela_4_1": [
+  {
+   "epoka": 1,
+   "humbja_trajnimit": 0.0037,
+   "humbja_validimit": 0.0038,
+   "P_validimit": 0.9714,
+   "R_validimit": 0.9726,
+   "F1_validimit": 0.972
+  },
+  {
+   "epoka": 2,
+   "humbja_trajnimit": 0.0027,
+   "humbja_validimit": 0.0029,
+   "P_validimit": 0.9816,
+   "R_validimit": 0.976,
+   "F1_validimit": 0.9788
+  },
+  {
+   "epoka": 3,
+   "humbja_trajnimit": 0.0023,
+   "humbja_validimit": 0.0026,
+   "P_validimit": 0.985,
+   "R_validimit": 0.9748,
+   "F1_validimit": 0.9799
+  },
+  {
+   "epoka": 4,
+   "humbja_trajnimit": 0.0018,
+   "humbja_validimit": 0.0024,
+   "P_validimit": 0.9867,
+   "R_validimit": 0.9777,
+   "F1_validimit": 0.9822
+  },
+  {
+   "epoka": 5,
+   "humbja_trajnimit": 0.0019,
+   "humbja_validimit": 0.0025,
+   "P_validimit": 0.985,
+   "R_validimit": 0.9777,
+   "F1_validimit": 0.9813
+  },
+  {
+   "epoka": 6,
+   "humbja_trajnimit": 0.0033,
+   "humbja_validimit": 0.0022,
+   "P_validimit": 0.9902,
+   "R_validimit": 0.9788,
+   "F1_validimit": 0.9845
+  },
+  {
+   "epoka": 7,
+   "humbja_trajnimit": 0.0011,
+   "humbja_validimit": 0.0024,
+   "P_validimit": 0.9873,
+   "R_validimit": 0.9788,
+   "F1_validimit": 0.9831
+  },
+  {
+   "epoka": 8,
+   "humbja_trajnimit": 0.0017,
+   "humbja_validimit": 0.0024,
+   "P_validimit": 0.9879,
+   "R_validimit": 0.9783,
+   "F1_validimit": 0.9831
+  }
+ ],
+ "epokat_e_kryera": 8,
+ "epoka_me_e_mire": 6,
+ "ndalim_i_hershem": false,
+ "koha_vleresimit_en_sek": 44.2,
+ "tabela_4_2_roberta": {
+  "EMAIL": {
+   "P": 0.978,
+   "R": 1.0,
+   "F1": 0.989,
+   "support": 753
+  },
+  "NAME_STUDENT": {
+   "P": 1.0,
+   "R": 0.992,
+   "F1": 0.996,
+   "support": 2132
+  },
+  "PHONE_NUM": {
+   "P": 0.967,
+   "R": 0.961,
+   "F1": 0.964,
+   "support": 492
+  },
+  "STREET_ADDRESS": {
+   "P": 0.987,
+   "R": 0.928,
+   "F1": 0.956,
+   "support": 732
+  },
+  "URL_PERSONAL": {
+   "P": 0.96,
+   "R": 0.992,
+   "F1": 0.976,
+   "support": 122
+  },
+  "USERNAME": {
+   "P": 0.952,
+   "R": 0.952,
+   "F1": 0.952,
+   "support": 145
+  },
+  "MIKRO": {
+   "P": 0.987,
+   "R": 0.978,
+   "F1": 0.982,
+   "support": 4376
+  }
+ },
+ "cm_roberta": [
+  [
+   264095,
+   2,
+   3,
+   0,
+   7,
+   3,
+   5
+  ],
+  [
+   13,
+   3210,
+   2,
+   0,
+   0,
+   2,
+   1
+  ],
+  [
+   0,
+   0,
+   753,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1194,
+   1,
+   0,
+   0
+  ],
+  [
+   28,
+   0,
+   5,
+   15,
+   2443,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   121,
+   1
+  ],
+  [
+   0,
+   0,
+   7,
+   0,
+   0,
+   0,
+   138
+  ]
+ ],
+ "tabela_4_3_roberta": {
+  "EMAIL": {
+   "P": 1.0,
+   "R": 0.6,
+   "F1": 0.75,
+   "support": 5
+  },
+  "NAME_STUDENT": {
+   "P": 0.583,
+   "R": 0.5,
+   "F1": 0.538,
+   "support": 14
+  },
+  "PHONE_NUM": {
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0,
+   "support": 6
+  },
+  "STREET_ADDRESS": {
+   "P": 0.167,
+   "R": 0.091,
+   "F1": 0.118,
+   "support": 11
+  },
+  "URL_PERSONAL": {
+   "P": 1.0,
+   "R": 0.5,
+   "F1": 0.667,
+   "support": 2
+  },
+  "USERNAME": {
+   "P": 1.0,
+   "R": 0.333,
+   "F1": 0.5,
+   "support": 3
+  },
+  "MIKRO": {
+   "P": 0.655,
+   "R": 0.463,
+   "F1": 0.543,
+   "support": 41
+  }
+ },
+ "cm_roberta_shqip": [
+  [
+   216,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   11,
+   17,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   2,
+   0,
+   3,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   17,
+   0,
+   0,
+   0
+  ],
+  [
+   22,
+   2,
+   0,
+   0,
+   7,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ]
+ ],
+ "gabimet_sipas_tipit": {
+  "FN": {
+   "anglisht": 41,
+   "shqip": 38
+  },
+  "FP": {
+   "anglisht": 20,
+   "shqip": 1
+  },
+  "Gabim kufiri": {
+   "anglisht": 7,
+   "shqip": 6
+  },
+  "Ngatërrim kategorie": {
+   "anglisht": 34,
+   "shqip": 2
+  }
+ },
+ "gabimet_shqip": [
+  {
+   "gjuha": "shqip",
+   "fjalia": 0,
+   "pozicioni": 14,
+   "fjala": "Rrugën",
+   "e_vertete": "B-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9987
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 0,
+   "pozicioni": 15,
+   "fjala": "e",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9995
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 0,
+   "pozicioni": 16,
+   "fjala": "Kavajës",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.996
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 2,
+   "pozicioni": 2,
+   "fjala": "Shehu",
+   "e_vertete": "I-NAME_STUDENT",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.5317
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 2,
+   "pozicioni": 5,
+   "fjala": "Rruga",
+   "e_vertete": "B-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.973
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 2,
+   "pozicioni": 6,
+   "fjala": "Gjergj",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.8601
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 2,
+   "pozicioni": 7,
+   "fjala": "Fishta",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.6046
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 2,
+   "pozicioni": 9,
+   "fjala": "Nr.",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "B-STREET_ADDRESS",
+   "tipi": "Gabim kufiri",
+   "besueshmeria": 0.5816
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 2,
+   "pozicioni": 10,
+   "fjala": "12",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "B-STREET_ADDRESS",
+   "tipi": "Gabim kufiri",
+   "besueshmeria": 0.7821
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 4,
+   "pozicioni": 7,
+   "fjala": "besnik.dervishi@yahoo.com",
+   "e_vertete": "B-EMAIL",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.8158
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 5,
+   "pozicioni": 5,
+   "fjala": "Bulevardi",
+   "e_vertete": "B-STREET_ADDRESS",
+   "parashikimi": "B-NAME_STUDENT",
+   "tipi": "Ngatërrim kategorie",
+   "besueshmeria": 0.8861
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 5,
+   "pozicioni": 6,
+   "fjala": "Zogu",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "I-NAME_STUDENT",
+   "tipi": "Ngatërrim kategorie",
+   "besueshmeria": 0.655
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 5,
+   "pozicioni": 7,
+   "fjala": "I",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.8905
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 5,
+   "pozicioni": 9,
+   "fjala": "Pallati",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.6793
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 5,
+   "pozicioni": 10,
+   "fjala": "7",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.508
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 6,
+   "pozicioni": 5,
+   "fjala": "https://www.linkedin.com/in/ardita-lleshi",
+   "e_vertete": "B-URL_PERSONAL",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.857
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 7,
+   "pozicioni": 6,
+   "fjala": "ardita_ll92",
+   "e_vertete": "B-USERNAME",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9664
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 8,
+   "pozicioni": 12,
+   "fjala": "Sara",
+   "e_vertete": "B-NAME_STUDENT",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9935
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 8,
+   "pozicioni": 13,
+   "fjala": "Gjoni",
+   "e_vertete": "I-NAME_STUDENT",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9904
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 10,
+   "pozicioni": 3,
+   "fjala": "Rruga",
+   "e_vertete": "B-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9862
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 10,
+   "pozicioni": 4,
+   "fjala": "Myslym",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "B-STREET_ADDRESS",
+   "tipi": "Gabim kufiri",
+   "besueshmeria": 0.3965
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 10,
+   "pozicioni": 5,
+   "fjala": "Shyri",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.4502
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 10,
+   "pozicioni": 7,
+   "fjala": "Nr.",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "B-STREET_ADDRESS",
+   "tipi": "Gabim kufiri",
+   "besueshmeria": 0.565
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 12,
+   "pozicioni": 9,
+   "fjala": "Lagjen",
+   "e_vertete": "B-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9301
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 12,
+   "pozicioni": 10,
+   "fjala": "Nr.",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.5926
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 12,
+   "pozicioni": 11,
+   "fjala": "3",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.6489
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 12,
+   "pozicioni": 13,
+   "fjala": "Rruga",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.976
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 12,
+   "pozicioni": 14,
+   "fjala": "e",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.999
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 12,
+   "pozicioni": 15,
+   "fjala": "Kavajës",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9946
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 13,
+   "pozicioni": 5,
+   "fjala": "info.projekti@upt.al",
+   "e_vertete": "B-EMAIL",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9685
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 18,
+   "pozicioni": 3,
+   "fjala": "Rrugën",
+   "e_vertete": "B-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9994
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 18,
+   "pozicioni": 4,
+   "fjala": "e",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9996
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 18,
+   "pozicioni": 5,
+   "fjala": "Durrësit",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9993
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 19,
+   "pozicioni": 4,
+   "fjala": "Ledio",
+   "e_vertete": "B-NAME_STUDENT",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.8003
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 19,
+   "pozicioni": 5,
+   "fjala": "Çela",
+   "e_vertete": "I-NAME_STUDENT",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9952
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 19,
+   "pozicioni": 7,
+   "fjala": "Anisa",
+   "e_vertete": "B-NAME_STUDENT",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.8198
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 19,
+   "pozicioni": 10,
+   "fjala": "Endrit",
+   "e_vertete": "B-NAME_STUDENT",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.7597
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 19,
+   "pozicioni": 11,
+   "fjala": "Beqiri",
+   "e_vertete": "I-NAME_STUDENT",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9832
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 20,
+   "pozicioni": 0,
+   "fjala": "Kavaja",
+   "e_vertete": "O",
+   "parashikimi": "B-NAME_STUDENT",
+   "tipi": "FP",
+   "besueshmeria": 0.6532
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 21,
+   "pozicioni": 8,
+   "fjala": "erion-dev",
+   "e_vertete": "B-USERNAME",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9409
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 22,
+   "pozicioni": 5,
+   "fjala": "Toska",
+   "e_vertete": "I-NAME_STUDENT",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.915
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 22,
+   "pozicioni": 10,
+   "fjala": "Rruga",
+   "e_vertete": "B-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9502
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 22,
+   "pozicioni": 11,
+   "fjala": "Sami",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "B-STREET_ADDRESS",
+   "tipi": "Gabim kufiri",
+   "besueshmeria": 0.5596
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 22,
+   "pozicioni": 12,
+   "fjala": "Frashëri",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.3866
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 22,
+   "pozicioni": 13,
+   "fjala": "20",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "B-STREET_ADDRESS",
+   "tipi": "Gabim kufiri",
+   "besueshmeria": 0.5208
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 24,
+   "pozicioni": 5,
+   "fjala": "Blerta",
+   "e_vertete": "B-NAME_STUDENT",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.8773
+  },
+  {
+   "gjuha": "shqip",
+   "fjalia": 24,
+   "pozicioni": 6,
+   "fjala": "Hysa",
+   "e_vertete": "I-NAME_STUDENT",
+   "parashikimi": "O",
+   "tipi": "FN",
+   "besueshmeria": 0.9575
+  }
+ ],
+ "ngaterrimet_kategorive": [
+  {
+   "gjuha": "anglisht",
+   "cift": "NAME_STUDENT → EMAIL",
+   "numri": 2,
+   "shembuj": "noeldasilva1236@hotmail.com, Galina_kato912@aol.edu"
+  },
+  {
+   "gjuha": "anglisht",
+   "cift": "NAME_STUDENT → URL_PERSONAL",
+   "numri": 2,
+   "shembuj": "www.sabrina_da, https://news.ndasilva.org.html."
+  },
+  {
+   "gjuha": "anglisht",
+   "cift": "NAME_STUDENT → USERNAME",
+   "numri": 1,
+   "shembuj": "sabrina.da"
+  },
+  {
+   "gjuha": "anglisht",
+   "cift": "PHONE_NUM → STREET_ADDRESS",
+   "numri": 1,
+   "shembuj": "0976,"
+  },
+  {
+   "gjuha": "anglisht",
+   "cift": "STREET_ADDRESS → EMAIL",
+   "numri": 5,
+   "shembuj": "leticia.sun5438@aol.edu,, shan_muller1581@outlook.net,, beltran_hoffman329@gmail.com, angelina_luo9921@aol.net,, irina.martin2345@yahoo.gov."
+  },
+  {
+   "gjuha": "anglisht",
+   "cift": "STREET_ADDRESS → PHONE_NUM",
+   "numri": 15,
+   "shembuj": "5832510, 90461, 9634, +91-25517, 018-9925-3887, 7506120,"
+  },
+  {
+   "gjuha": "anglisht",
+   "cift": "URL_PERSONAL → USERNAME",
+   "numri": 1,
+   "shembuj": "masahirofeng.com.css,"
+  },
+  {
+   "gjuha": "anglisht",
+   "cift": "USERNAME → EMAIL",
+   "numri": 7,
+   "shembuj": "sushilasasaki4038@aol.edu, jingbutcher5945@gmail.net, paulzhao@yahoo.gov., arinamercier@aol.com, ramonmorozov238@gmail.net,, tomikowolf7270@aol.net"
+  },
+  {
+   "gjuha": "shqip",
+   "cift": "STREET_ADDRESS → NAME_STUDENT",
+   "numri": 2,
+   "shembuj": "Bulevardi, Zogu"
+  }
+ ],
+ "kavaja": [
+  {
+   "fjalia": 1,
+   "fjala": "Kavajës",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "top3": [
+    [
+     "O",
+     0.996
+    ],
+    [
+     "B-STREET_ADDRESS",
+     0.0031
+    ],
+    [
+     "B-NAME_STUDENT",
+     0.0004
+    ]
+   ]
+  },
+  {
+   "fjalia": 12,
+   "fjala": "Kavajë",
+   "e_vertete": "O",
+   "parashikimi": "O",
+   "top3": [
+    [
+     "O",
+     0.9985
+    ],
+    [
+     "B-STREET_ADDRESS",
+     0.0008
+    ],
+    [
+     "B-NAME_STUDENT",
+     0.0004
+    ]
+   ]
+  },
+  {
+   "fjalia": 13,
+   "fjala": "Kavajës",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "top3": [
+    [
+     "O",
+     0.9946
+    ],
+    [
+     "B-STREET_ADDRESS",
+     0.0043
+    ],
+    [
+     "B-NAME_STUDENT",
+     0.0005
+    ]
+   ]
+  },
+  {
+   "fjalia": 21,
+   "fjala": "Kavaja",
+   "e_vertete": "O",
+   "parashikimi": "B-NAME_STUDENT",
+   "top3": [
+    [
+     "B-NAME_STUDENT",
+     0.6532
+    ],
+    [
+     "O",
+     0.2221
+    ],
+    [
+     "B-STREET_ADDRESS",
+     0.042
+    ]
+   ]
+  }
+ ],
+ "fertiliteti_kundrejt_saktesise": [
+  {
+   "gjuha": "anglisht",
+   "grupi": "1",
+   "fjale": 2233,
+   "saktesia": 0.99
+  },
+  {
+   "gjuha": "anglisht",
+   "grupi": "2",
+   "fjale": 3250,
+   "saktesia": 0.995
+  },
+  {
+   "gjuha": "anglisht",
+   "grupi": "3",
+   "fjale": 997,
+   "saktesia": 0.995
+  },
+  {
+   "gjuha": "anglisht",
+   "grupi": "4",
+   "fjale": 220,
+   "saktesia": 0.973
+  },
+  {
+   "gjuha": "anglisht",
+   "grupi": "5+",
+   "fjale": 1234,
+   "saktesia": 0.98
+  },
+  {
+   "gjuha": "shqip",
+   "grupi": "1",
+   "fjale": 16,
+   "saktesia": 0.562
+  },
+  {
+   "gjuha": "shqip",
+   "grupi": "2",
+   "fjale": 27,
+   "saktesia": 0.667
+  },
+  {
+   "gjuha": "shqip",
+   "grupi": "3",
+   "fjale": 22,
+   "saktesia": 0.5
+  },
+  {
+   "gjuha": "shqip",
+   "grupi": "4",
+   "fjale": 8,
+   "saktesia": 0.125
+  },
+  {
+   "gjuha": "shqip",
+   "grupi": "5+",
+   "fjale": 13,
+   "saktesia": 0.538
+  }
+ ],
+ "fertiliteti_mesatar_entiteteve": {
+  "anglisht": 3.122,
+  "shqip": 3.174
+ },
+ "xai_rastet": [
+  {
+   "rasti": 1,
+   "burimi": "shqip",
+   "lloji": "Gabim: FN",
+   "fjala": "e",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "parashikimi_ne_dokumentin_e_plote": "O",
+   "kontrasti": "I-STREET_ADDRESS",
+   "p_parashikimit": 0.9996,
+   "gabim": 1,
+   "lime_std_mesatar": 0.0001,
+   "lime_R2": 0.6259,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 0.09331,
+   "nentokene_te_fjales": 1,
+   "vemendja_brenda_fjales_shtresa0": 0.0672,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.0756,
+   "shap_pjesa_lokale_pm2": 0.6799,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "Rrugën, Durrësit, ,",
+   "konteksti": "Qendra ndodhet në Rrugën e Durrësit , pranë sheshit Skënderbej ."
+  },
+  {
+   "rasti": 2,
+   "burimi": "shqip",
+   "lloji": "Gabim: FN",
+   "fjala": "e",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "parashikimi_ne_dokumentin_e_plote": "O",
+   "kontrasti": "I-STREET_ADDRESS",
+   "p_parashikimit": 0.9995,
+   "gabim": 1,
+   "lime_std_mesatar": 0.0007,
+   "lime_R2": 0.2977,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 0.02413,
+   "nentokene_te_fjales": 1,
+   "vemendja_brenda_fjales_shtresa0": 0.045,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.1444,
+   "shap_pjesa_lokale_pm2": 0.7377,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "Rrugën, Kavajës, ,",
+   "konteksti": "Përshëndetje , unë jam Drilona Hoxha dhe numri im është 0691122334 . Jetoj në Rrugën e Kavajës , Tiranë ."
+  },
+  {
+   "rasti": 3,
+   "burimi": "shqip",
+   "lloji": "Gabim: FP",
+   "fjala": "Kavaja",
+   "e_vertete": "O",
+   "parashikimi": "B-NAME_STUDENT",
+   "parashikimi_ne_dokumentin_e_plote": "B-NAME_STUDENT",
+   "kontrasti": "O",
+   "p_parashikimit": 0.6532,
+   "gabim": 1,
+   "lime_std_mesatar": 0.0067,
+   "lime_R2": 0.6585,
+   "shap_gabimi_efikasitetit": 1e-05,
+   "ig_gabimi_konvergjences": 0.08577,
+   "nentokene_te_fjales": 3,
+   "vemendja_brenda_fjales_shtresa0": 0.2469,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.611,
+   "shap_pjesa_lokale_pm2": 0.1665,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "., në, është",
+   "konteksti": "Kavaja është një qytet bregdetar në Shqipërinë e Mesme ."
+  },
+  {
+   "rasti": 4,
+   "burimi": "shqip",
+   "lloji": "Gabim: Gabim kufiri",
+   "fjala": "12",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "B-STREET_ADDRESS",
+   "parashikimi_ne_dokumentin_e_plote": "B-STREET_ADDRESS",
+   "kontrasti": "I-STREET_ADDRESS",
+   "p_parashikimit": 0.7821,
+   "gabim": 1,
+   "lime_std_mesatar": 0.0141,
+   "lime_R2": 0.5081,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 0.00031,
+   "nentokene_te_fjales": 1,
+   "vemendja_brenda_fjales_shtresa0": 0.1161,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.2853,
+   "shap_pjesa_lokale_pm2": 0.5089,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": ",, Gjergj, në",
+   "konteksti": "Studenti Arben Shehu banon në Rruga Gjergj Fishta , Nr. 12 , Durrës ."
+  },
+  {
+   "rasti": 5,
+   "burimi": "shqip",
+   "lloji": "Gabim: Gabim kufiri",
+   "fjala": "Nr.",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "B-STREET_ADDRESS",
+   "parashikimi_ne_dokumentin_e_plote": "B-STREET_ADDRESS",
+   "kontrasti": "I-STREET_ADDRESS",
+   "p_parashikimit": 0.565,
+   "gabim": 1,
+   "lime_std_mesatar": 0.0095,
+   "lime_R2": 0.8546,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 0.04782,
+   "nentokene_te_fjales": 3,
+   "vemendja_brenda_fjales_shtresa0": 0.2873,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.522,
+   "shap_pjesa_lokale_pm2": 0.6534,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": ",, dokumentet, te",
+   "konteksti": "Dërgoni dokumentet te Rruga Myslym Shyri , Nr. 45 ."
+  },
+  {
+   "rasti": 6,
+   "burimi": "shqip",
+   "lloji": "Gabim: Ngatërrim kategorie",
+   "fjala": "Bulevardi",
+   "e_vertete": "B-STREET_ADDRESS",
+   "parashikimi": "B-NAME_STUDENT",
+   "parashikimi_ne_dokumentin_e_plote": "B-NAME_STUDENT",
+   "kontrasti": "B-STREET_ADDRESS",
+   "p_parashikimit": 0.8861,
+   "gabim": 1,
+   "lime_std_mesatar": 0.012,
+   "lime_R2": 0.6492,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 0.03221,
+   "nentokene_te_fjales": 4,
+   "vemendja_brenda_fjales_shtresa0": 0.331,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.5583,
+   "shap_pjesa_lokale_pm2": 0.5167,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "Zogu, është, ime",
+   "konteksti": "Adresa ime e re është Bulevardi Zogu I , Pallati 7 , Tiranë ."
+  },
+  {
+   "rasti": 7,
+   "burimi": "anglisht",
+   "lloji": "Gabim: FN",
+   "fjala": "damaged",
+   "e_vertete": "B-NAME_STUDENT",
+   "parashikimi": "O",
+   "parashikimi_ne_dokumentin_e_plote": "O",
+   "kontrasti": "B-NAME_STUDENT",
+   "p_parashikimit": 1.0,
+   "gabim": 1,
+   "lime_std_mesatar": 0.0,
+   "lime_R2": 0.2482,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 0.42586,
+   "nentokene_te_fjales": 1,
+   "vemendja_brenda_fjales_shtresa0": 0.0929,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.0049,
+   "shap_pjesa_lokale_pm2": 0.4717,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "products., number, of",
+   "konteksti": "more careful with our packages. The result was a dramatic decrease in the number of damaged products. Our customers were happy, and our sales increased. I'm proud of the work that"
+  },
+  {
+   "rasti": 8,
+   "burimi": "anglisht",
+   "lloji": "Gabim: FP",
+   "fjala": "blvd",
+   "e_vertete": "O",
+   "parashikimi": "I-STREET_ADDRESS",
+   "parashikimi_ne_dokumentin_e_plote": "I-STREET_ADDRESS",
+   "kontrasti": "O",
+   "p_parashikimit": 0.9997,
+   "gabim": 1,
+   "lime_std_mesatar": 0.0115,
+   "lime_R2": 0.2678,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 0.55711,
+   "nentokene_te_fjales": 2,
+   "vemendja_brenda_fjales_shtresa0": 0.2305,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.0752,
+   "shap_pjesa_lokale_pm2": 0.478,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "979, address, 588.",
+   "konteksti": "was one of the most rewarding moments of my career. My address is 979 Ingram blvd Suite 588. I've been an anesthesiologist for over 20 years, and I've seen a lot"
+  },
+  {
+   "rasti": 9,
+   "burimi": "anglisht",
+   "lloji": "Gabim: Gabim kufiri",
+   "fjala": "Suite",
+   "e_vertete": "B-STREET_ADDRESS",
+   "parashikimi": "I-STREET_ADDRESS",
+   "parashikimi_ne_dokumentin_e_plote": "I-STREET_ADDRESS",
+   "kontrasti": "B-STREET_ADDRESS",
+   "p_parashikimit": 0.9998,
+   "gabim": 1,
+   "lime_std_mesatar": 0.0042,
+   "lime_R2": 0.1371,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 1.3723,
+   "nentokene_te_fjales": 1,
+   "vemendja_brenda_fjales_shtresa0": 0.0815,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.0447,
+   "shap_pjesa_lokale_pm2": 0.2347,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "979, address, 588.",
+   "konteksti": "one of the most rewarding moments of my career. My address is 979 Ingram blvd Suite 588. I've been an anesthesiologist for over 20 years, and I've seen a lot of"
+  },
+  {
+   "rasti": 10,
+   "burimi": "anglisht",
+   "lloji": "Gabim: Ngatërrim kategorie",
+   "fjala": "shan_muller1581@outlook.net,",
+   "e_vertete": "B-STREET_ADDRESS",
+   "parashikimi": "B-EMAIL",
+   "parashikimi_ne_dokumentin_e_plote": "B-EMAIL",
+   "kontrasti": "B-STREET_ADDRESS",
+   "p_parashikimit": 0.9983,
+   "gabim": 1,
+   "lime_std_mesatar": 0.0,
+   "lime_R2": 0.6493,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 0.72383,
+   "nentokene_te_fjales": 14,
+   "vemendja_brenda_fjales_shtresa0": 0.5334,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.6714,
+   "shap_pjesa_lokale_pm2": 0.3564,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "email,, My, sharing",
+   "konteksti": "craft, striving for excellence in every article, every interview, and every investigative piece. My email, shan_muller1581@outlook.net, became a gateway for sharing my work with the world, reaching readers from all walks"
+  },
+  {
+   "rasti": 11,
+   "burimi": "shqip",
+   "lloji": "I saktë: NAME_STUDENT",
+   "fjala": "Besnik",
+   "e_vertete": "B-NAME_STUDENT",
+   "parashikimi": "B-NAME_STUDENT",
+   "parashikimi_ne_dokumentin_e_plote": "B-NAME_STUDENT",
+   "kontrasti": "O",
+   "p_parashikimit": 0.9972,
+   "gabim": 0,
+   "lime_std_mesatar": 0.009,
+   "lime_R2": 0.6618,
+   "shap_gabimi_efikasitetit": 1e-05,
+   "ig_gabimi_konvergjences": 0.04098,
+   "nentokene_te_fjales": 2,
+   "vemendja_brenda_fjales_shtresa0": 0.1962,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.7472,
+   "shap_pjesa_lokale_pm2": 0.3798,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "besnik.dervishi@yahoo.com, Dervishi, .",
+   "konteksti": "Për çdo pyetje kontaktoni Besnik Dervishi në besnik.dervishi@yahoo.com ."
+  },
+  {
+   "rasti": 12,
+   "burimi": "shqip",
+   "lloji": "I saktë: EMAIL",
+   "fjala": "gerti.m@gmail.com",
+   "e_vertete": "B-EMAIL",
+   "parashikimi": "B-EMAIL",
+   "parashikimi_ne_dokumentin_e_plote": "B-EMAIL",
+   "kontrasti": "O",
+   "p_parashikimit": 0.9604,
+   "gabim": 0,
+   "lime_std_mesatar": 0.003,
+   "lime_R2": 0.1818,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 1.04775,
+   "nentokene_te_fjales": 9,
+   "vemendja_brenda_fjales_shtresa0": 0.5149,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.8113,
+   "shap_pjesa_lokale_pm2": 0.4687,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "e-maili, 998, +355",
+   "konteksti": "Numri im është +355 67 998 1122 dhe e-maili gerti.m@gmail.com ."
+  },
+  {
+   "rasti": 13,
+   "burimi": "shqip",
+   "lloji": "I saktë: PHONE_NUM",
+   "fjala": "+355",
+   "e_vertete": "B-PHONE_NUM",
+   "parashikimi": "B-PHONE_NUM",
+   "parashikimi_ne_dokumentin_e_plote": "B-PHONE_NUM",
+   "kontrasti": "O",
+   "p_parashikimit": 0.9992,
+   "gabim": 0,
+   "lime_std_mesatar": 0.0,
+   "lime_R2": 0.0481,
+   "shap_gabimi_efikasitetit": 1e-05,
+   "ig_gabimi_konvergjences": 0.05008,
+   "nentokene_te_fjales": 2,
+   "vemendja_brenda_fjales_shtresa0": 0.2097,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.3389,
+   "shap_pjesa_lokale_pm2": 0.2541,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "më, drilona.hoxha@gmail.com, të",
+   "konteksti": "Mund të më shkruani në drilona.hoxha@gmail.com ose të më telefononi në +355 69 112 2334 ."
+  },
+  {
+   "rasti": 14,
+   "burimi": "shqip",
+   "lloji": "I saktë: URL_PERSONAL",
+   "fjala": "www.andihasa.com",
+   "e_vertete": "B-URL_PERSONAL",
+   "parashikimi": "B-URL_PERSONAL",
+   "parashikimi_ne_dokumentin_e_plote": "B-URL_PERSONAL",
+   "kontrasti": "O",
+   "p_parashikimit": 0.9453,
+   "gabim": 0,
+   "lime_std_mesatar": 0.001,
+   "lime_R2": 0.6475,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 1.85068,
+   "nentokene_te_fjales": 7,
+   "vemendja_brenda_fjales_shtresa0": 0.5811,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.9176,
+   "shap_pjesa_lokale_pm2": 0.8389,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "Faqja, ime",
+   "konteksti": "Faqja ime personale : www.andihasa.com ."
+  },
+  {
+   "rasti": 15,
+   "burimi": "shqip",
+   "lloji": "I saktë: USERNAME",
+   "fjala": "@jonida.ph",
+   "e_vertete": "B-USERNAME",
+   "parashikimi": "B-USERNAME",
+   "parashikimi_ne_dokumentin_e_plote": "B-USERNAME",
+   "kontrasti": "O",
+   "p_parashikimit": 0.992,
+   "gabim": 0,
+   "lime_std_mesatar": 0.0006,
+   "lime_R2": 0.5833,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 0.02736,
+   "nentokene_te_fjales": 5,
+   "vemendja_brenda_fjales_shtresa0": 0.4157,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.8055,
+   "shap_pjesa_lokale_pm2": 0.9019,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "., si, më",
+   "konteksti": "Në Instagram më gjeni si @jonida.ph ."
+  },
+  {
+   "rasti": 16,
+   "burimi": "anglisht",
+   "lloji": "I saktë: NAME_STUDENT",
+   "fjala": "Shan's",
+   "e_vertete": "B-NAME_STUDENT",
+   "parashikimi": "B-NAME_STUDENT",
+   "parashikimi_ne_dokumentin_e_plote": "B-NAME_STUDENT",
+   "kontrasti": "O",
+   "p_parashikimit": 0.9997,
+   "gabim": 0,
+   "lime_std_mesatar": 0.0052,
+   "lime_R2": 0.2421,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 1.53633,
+   "nentokene_te_fjales": 2,
+   "vemendja_brenda_fjales_shtresa0": 0.2066,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.3443,
+   "shap_pjesa_lokale_pm2": 0.2376,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "@shan_gross11,, of, invested.",
+   "konteksti": "a mirror-like shine, reflected the countless hours of painstaking work he had invested. News of Shan's exceptional craftsmanship spread throughout the automotive community like wildfire. His Indeed profile, @shan_gross11, was flooded"
+  },
+  {
+   "rasti": 17,
+   "burimi": "anglisht",
+   "lloji": "I saktë: EMAIL",
+   "fjala": "zayn.yu@aol.net.",
+   "e_vertete": "B-EMAIL",
+   "parashikimi": "B-EMAIL",
+   "parashikimi_ne_dokumentin_e_plote": "B-EMAIL",
+   "kontrasti": "O",
+   "p_parashikimit": 0.9992,
+   "gabim": 0,
+   "lime_std_mesatar": 0.0,
+   "lime_R2": 0.4665,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 30.68445,
+   "nentokene_te_fjales": 10,
+   "vemendja_brenda_fjales_shtresa0": 0.5047,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.9401,
+   "shap_pjesa_lokale_pm2": 0.3811,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "email, at, You",
+   "konteksti": "further, please feel free to contact me at 0575 249 530 or via email at zayn.yu@aol.net. You can also find more information about my work and upcoming projects on my website,"
+  },
+  {
+   "rasti": 18,
+   "burimi": "anglisht",
+   "lloji": "I saktë: PHONE_NUM",
+   "fjala": "+86",
+   "e_vertete": "B-PHONE_NUM",
+   "parashikimi": "B-PHONE_NUM",
+   "parashikimi_ne_dokumentin_e_plote": "B-PHONE_NUM",
+   "kontrasti": "O",
+   "p_parashikimit": 0.9992,
+   "gabim": 0,
+   "lime_std_mesatar": 0.0001,
+   "lime_R2": 0.0064,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 0.34054,
+   "nentokene_te_fjales": 2,
+   "vemendja_brenda_fjales_shtresa0": 0.2098,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.3007,
+   "shap_pjesa_lokale_pm2": 0.3336,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "5749., phone, email",
+   "konteksti": "prevention and control, you can reach him via email at ramon-hartmann@gmail.net or by phone at +86 19122 5749."
+  },
+  {
+   "rasti": 19,
+   "burimi": "anglisht",
+   "lloji": "I saktë: STREET_ADDRESS",
+   "fjala": "1508",
+   "e_vertete": "B-STREET_ADDRESS",
+   "parashikimi": "B-STREET_ADDRESS",
+   "parashikimi_ne_dokumentin_e_plote": "B-STREET_ADDRESS",
+   "kontrasti": "O",
+   "p_parashikimit": 0.9996,
+   "gabim": 0,
+   "lime_std_mesatar": 0.0014,
+   "lime_R2": 0.0444,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 0.1941,
+   "nentokene_te_fjales": 2,
+   "vemendja_brenda_fjales_shtresa0": 0.2184,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.5058,
+   "shap_pjesa_lokale_pm2": 0.434,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "zixuan.morozov@msn.gov, Apt., Address:",
+   "konteksti": "to any team. Contact Zixuan Morozov for inquiries: Phone: 0574 207 907 Email: zixuan.morozov@msn.gov Address: 1508 Kelly Extensions Apt. 276 Hobbies: Crossword puzzles"
+  },
+  {
+   "rasti": 20,
+   "burimi": "anglisht",
+   "lloji": "I saktë: URL_PERSONAL",
+   "fjala": "https://www.kwilson.net.",
+   "e_vertete": "B-URL_PERSONAL",
+   "parashikimi": "B-URL_PERSONAL",
+   "parashikimi_ne_dokumentin_e_plote": "B-URL_PERSONAL",
+   "kontrasti": "O",
+   "p_parashikimit": 0.9987,
+   "gabim": 0,
+   "lime_std_mesatar": 0.0002,
+   "lime_R2": 0.4214,
+   "shap_gabimi_efikasitetit": 1e-05,
+   "ig_gabimi_konvergjences": 3.10854,
+   "nentokene_te_fjales": 10,
+   "vemendja_brenda_fjales_shtresa0": 0.4851,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.8801,
+   "shap_pjesa_lokale_pm2": 0.0975,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "kenjiwilson8720@hotmail.net,, send, at",
+   "konteksti": "reach him at +91-37798 55795, send an email to kenjiwilson8720@hotmail.net, or visit his website at https://www.kwilson.net."
+  },
+  {
+   "rasti": 21,
+   "burimi": "anglisht",
+   "lloji": "I saktë: USERNAME",
+   "fjala": "kazuo.sasaki87.",
+   "e_vertete": "B-USERNAME",
+   "parashikimi": "B-USERNAME",
+   "parashikimi_ne_dokumentin_e_plote": "B-USERNAME",
+   "kontrasti": "O",
+   "p_parashikimit": 0.9994,
+   "gabim": 0,
+   "lime_std_mesatar": 0.0002,
+   "lime_R2": 0.0155,
+   "shap_gabimi_efikasitetit": 1e-05,
+   "ig_gabimi_konvergjences": 0.28592,
+   "nentokene_te_fjales": 8,
+   "vemendja_brenda_fjales_shtresa0": 0.372,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.6324,
+   "shap_pjesa_lokale_pm2": 0.1888,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "https://mobile.kazuo-sasaki.biz/contact.css, You, kazuo.sasaki@outlook.edu.",
+   "konteksti": "about me, you can visit my webpage at https://mobile.kazuo-sasaki.biz/contact.css or find me on Upwork at kazuo.sasaki87. You can also reach me by email at kazuo.sasaki@outlook.edu. My address is 82566 Davis Rue."
+  },
+  {
+   "rasti": 22,
+   "burimi": "shqip",
+   "lloji": "Rasti \"Kavajës\"",
+   "fjala": "Kavajës",
+   "e_vertete": "I-STREET_ADDRESS",
+   "parashikimi": "O",
+   "parashikimi_ne_dokumentin_e_plote": "O",
+   "kontrasti": "I-STREET_ADDRESS",
+   "p_parashikimit": 0.9958,
+   "gabim": 1,
+   "lime_std_mesatar": 0.0061,
+   "lime_R2": 0.4863,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 0.00813,
+   "nentokene_te_fjales": 5,
+   "vemendja_brenda_fjales_shtresa0": 0.3387,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.3632,
+   "shap_pjesa_lokale_pm2": 0.6759,
+   "fjalet_qe_shtyjne_drejt_parashikimit_SHAP": "e, Rrugën, ,",
+   "konteksti": ", unë jam Drilona Hoxha dhe numri im është 0691122334 . Jetoj në Rrugën e Kavajës , Tiranë ."
+  }
+ ],
+ "tabela_4_5_eraser": [
+  {
+   "metoda": "Okluzion",
+   "G_mes": 0.1713,
+   "G_std": 0.2977,
+   "M_mes": 0.0528,
+   "M_std": 0.235
+  },
+  {
+   "metoda": "LIME",
+   "G_mes": 0.1247,
+   "G_std": 0.2479,
+   "M_mes": 0.0969,
+   "M_std": 0.2231
+  },
+  {
+   "metoda": "SHAP",
+   "G_mes": 0.0936,
+   "G_std": 0.1729,
+   "M_mes": 0.1113,
+   "M_std": 0.2045
+  },
+  {
+   "metoda": "Integrated Gradients",
+   "G_mes": 0.1005,
+   "G_std": 0.229,
+   "M_mes": 0.0942,
+   "M_std": 0.19
+  },
+  {
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "G_mes": 0.0838,
+   "G_std": 0.2015,
+   "M_mes": 0.0607,
+   "M_std": 0.1602
+  },
+  {
+   "metoda": "Attention rollout",
+   "G_mes": 0.0553,
+   "G_std": 0.1534,
+   "M_mes": 0.185,
+   "M_std": 0.3079
+  },
+  {
+   "metoda": "Rastësore",
+   "G_mes": 0.0616,
+   "G_std": 0.1145,
+   "M_mes": 0.1974,
+   "M_std": 0.2452
+  }
+ ],
+ "eraser_sipas_grupit": [
+  {
+   "metoda": "Okluzion",
+   "gabime / anglisht": 0.0008,
+   "gabime / shqip": 0.3506,
+   "të sakta / anglisht": 0.1627,
+   "të sakta / shqip": 0.0668
+  },
+  {
+   "metoda": "LIME",
+   "gabime / anglisht": 0.0008,
+   "gabime / shqip": 0.2147,
+   "të sakta / anglisht": 0.1636,
+   "të sakta / shqip": 0.0511
+  },
+  {
+   "metoda": "SHAP",
+   "gabime / anglisht": 0.0003,
+   "gabime / shqip": 0.2427,
+   "të sakta / anglisht": 0.0192,
+   "të sakta / shqip": 0.049
+  },
+  {
+   "metoda": "Integrated Gradients",
+   "gabime / anglisht": 0.0008,
+   "gabime / shqip": 0.2691,
+   "të sakta / anglisht": 0.0085,
+   "të sakta / shqip": 0.0546
+  },
+  {
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gabime / anglisht": 0.0005,
+   "gabime / shqip": 0.2081,
+   "të sakta / anglisht": 0.0057,
+   "të sakta / shqip": 0.0701
+  },
+  {
+   "metoda": "Attention rollout",
+   "gabime / anglisht": 0.0004,
+   "gabime / shqip": 0.1395,
+   "të sakta / anglisht": 0.0054,
+   "të sakta / shqip": 0.0412
+  },
+  {
+   "metoda": "Rastësore",
+   "gabime / anglisht": 0.0001,
+   "gabime / shqip": 0.174,
+   "të sakta / anglisht": 0.0002,
+   "të sakta / shqip": 0.0271
+  }
+ ],
+ "eraser_per_rast": [
+  {
+   "rasti": 1,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.04362303018569946,
+   "mjaftueshmeria": 0.022389352321624756
+  },
+  {
+   "rasti": 1,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.04362303018569946,
+   "mjaftueshmeria": 0.022389352321624756
+  },
+  {
+   "rasti": 1,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.04362303018569946,
+   "mjaftueshmeria": 0.022389352321624756
+  },
+  {
+   "rasti": 1,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.01985955238342285,
+   "mjaftueshmeria": 0.021744132041931152
+  },
+  {
+   "rasti": 1,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 0.017613768577575684,
+   "mjaftueshmeria": 0.02267920970916748
+  },
+  {
+   "rasti": 1,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 0.013113915920257568,
+   "mjaftueshmeria": 0.03493344783782959
+  },
+  {
+   "rasti": 1,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 0.0067700505256652836,
+   "mjaftueshmeria": 0.041789472103118896
+  },
+  {
+   "rasti": 2,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.023287951946258545,
+   "mjaftueshmeria": 0.004787743091583252
+  },
+  {
+   "rasti": 2,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.025594592094421387,
+   "mjaftueshmeria": 0.02897745370864868
+  },
+  {
+   "rasti": 2,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.025594592094421387,
+   "mjaftueshmeria": 0.02897745370864868
+  },
+  {
+   "rasti": 2,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.025594592094421387,
+   "mjaftueshmeria": 0.02897745370864868
+  },
+  {
+   "rasti": 2,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 0.11537283658981323,
+   "mjaftueshmeria": 0.019269466400146484
+  },
+  {
+   "rasti": 2,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 0.018957972526550293,
+   "mjaftueshmeria": 0.030012071132659912
+  },
+  {
+   "rasti": 2,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 0.019052696228027344,
+   "mjaftueshmeria": 0.038329941034317014
+  },
+  {
+   "rasti": 3,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.10098713636398315,
+   "mjaftueshmeria": -0.08963942527770996
+  },
+  {
+   "rasti": 3,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.34501346945762634,
+   "mjaftueshmeria": -0.24316143989562988
+  },
+  {
+   "rasti": 3,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.07339388132095337,
+   "mjaftueshmeria": 0.14913725852966309
+  },
+  {
+   "rasti": 3,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.40934617817401886,
+   "mjaftueshmeria": 0.32915741205215454
+  },
+  {
+   "rasti": 3,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 0.21204861998558044,
+   "mjaftueshmeria": -0.09413260221481323
+  },
+  {
+   "rasti": 3,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": -0.15203750133514404,
+   "mjaftueshmeria": 0.3514057993888855
+  },
+  {
+   "rasti": 3,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 0.07786618918180466,
+   "mjaftueshmeria": 0.2929852943867445
+  },
+  {
+   "rasti": 4,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.36835020780563354,
+   "mjaftueshmeria": 0.41264745593070984
+  },
+  {
+   "rasti": 4,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.36835020780563354,
+   "mjaftueshmeria": 0.41264745593070984
+  },
+  {
+   "rasti": 4,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.36835020780563354,
+   "mjaftueshmeria": 0.41264745593070984
+  },
+  {
+   "rasti": 4,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.6305444836616516,
+   "mjaftueshmeria": 0.6259117126464844
+  },
+  {
+   "rasti": 4,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 0.24181944131851196,
+   "mjaftueshmeria": 0.6985900849103928
+  },
+  {
+   "rasti": 4,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 0.6684982404112816,
+   "mjaftueshmeria": 0.7352630272507668
+  },
+  {
+   "rasti": 4,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 0.27135318219661714,
+   "mjaftueshmeria": 0.3495771920308471
+  },
+  {
+   "rasti": 5,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.43478697538375854,
+   "mjaftueshmeria": -0.2781904339790344
+  },
+  {
+   "rasti": 5,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.10603371262550354,
+   "mjaftueshmeria": 0.38850052654743195
+  },
+  {
+   "rasti": 5,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.5011549592018127,
+   "mjaftueshmeria": 0.30179813504219055
+  },
+  {
+   "rasti": 5,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": -0.12941527366638184,
+   "mjaftueshmeria": 0.5584393069148064
+  },
+  {
+   "rasti": 5,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": -0.031474173069000244,
+   "mjaftueshmeria": 0.19915196299552917
+  },
+  {
+   "rasti": 5,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 0.13656166195869446,
+   "mjaftueshmeria": 0.45739761739969254
+  },
+  {
+   "rasti": 5,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 0.22584024779498577,
+   "mjaftueshmeria": 0.25246821916662154
+  },
+  {
+   "rasti": 6,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.8665873594582081,
+   "mjaftueshmeria": 0.035162389278411865
+  },
+  {
+   "rasti": 6,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.04973489046096802,
+   "mjaftueshmeria": 0.8114332407712936
+  },
+  {
+   "rasti": 6,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.12238192558288574,
+   "mjaftueshmeria": 0.8070462718605995
+  },
+  {
+   "rasti": 6,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.8078293949365616,
+   "mjaftueshmeria": 0.17335867881774902
+  },
+  {
+   "rasti": 6,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 0.8665873594582081,
+   "mjaftueshmeria": 0.035162389278411865
+  },
+  {
+   "rasti": 6,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 0.19341415166854858,
+   "mjaftueshmeria": 0.8799803568981588
+  },
+  {
+   "rasti": 6,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 0.4012343779206276,
+   "mjaftueshmeria": 0.7198716690763831
+  },
+  {
+   "rasti": 7,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.0002194046974182129,
+   "mjaftueshmeria": 0.00012254714965820312
+  },
+  {
+   "rasti": 7,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.0002562403678894043,
+   "mjaftueshmeria": 9.274482727050781e-05
+  },
+  {
+   "rasti": 7,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.0002194046974182129,
+   "mjaftueshmeria": 0.00012254714965820312
+  },
+  {
+   "rasti": 7,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.0002194046974182129,
+   "mjaftueshmeria": 0.00012254714965820312
+  },
+  {
+   "rasti": 7,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 5.245208740234375e-06,
+   "mjaftueshmeria": 0.020987331867218018
+  },
+  {
+   "rasti": 7,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 3.826618194580078e-05,
+   "mjaftueshmeria": 0.003909289836883545
+  },
+  {
+   "rasti": 7,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 2.4336576461791993e-05,
+   "mjaftueshmeria": 0.0069832444190979
+  },
+  {
+   "rasti": 8,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.00010019540786743164,
+   "mjaftueshmeria": 0.0007117390632629395
+  },
+  {
+   "rasti": 8,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "LIME",
+   "gjitheperfshirja": 2.7894973754882812e-05,
+   "mjaftueshmeria": 0.0007111430168151855
+  },
+  {
+   "rasti": 8,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 2.7894973754882812e-05,
+   "mjaftueshmeria": 0.0007111430168151855
+  },
+  {
+   "rasti": 8,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 6.598234176635742e-05,
+   "mjaftueshmeria": 0.00025832653045654297
+  },
+  {
+   "rasti": 8,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 0.0003071427345275879,
+   "mjaftueshmeria": 0.0002758502960205078
+  },
+  {
+   "rasti": 8,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": -3.1828880310058594e-05,
+   "mjaftueshmeria": 0.8315745890140533
+  },
+  {
+   "rasti": 8,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 3.545284271240234e-05,
+   "mjaftueshmeria": 0.7601210418622941
+  },
+  {
+   "rasti": 9,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 7.152557373046875e-07,
+   "mjaftueshmeria": 0.00012260675430297852
+  },
+  {
+   "rasti": 9,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "LIME",
+   "gjitheperfshirja": 2.372264862060547e-05,
+   "mjaftueshmeria": 0.00026744604110717773
+  },
+  {
+   "rasti": 9,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.00011283159255981445,
+   "mjaftueshmeria": 8.481740951538086e-05
+  },
+  {
+   "rasti": 9,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": -5.245208740234375e-06,
+   "mjaftueshmeria": 8.32676887512207e-05
+  },
+  {
+   "rasti": 9,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 9.185075759887695e-05,
+   "mjaftueshmeria": 0.0003604292869567871
+  },
+  {
+   "rasti": 9,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 2.0742416381835938e-05,
+   "mjaftueshmeria": 0.00017595291137695312
+  },
+  {
+   "rasti": 9,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 4.647374153137207e-05,
+   "mjaftueshmeria": 0.13680656626820564
+  },
+  {
+   "rasti": 10,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.0030223727226257324,
+   "mjaftueshmeria": 0.014141678810119629
+  },
+  {
+   "rasti": 10,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.0030223727226257324,
+   "mjaftueshmeria": 0.014141678810119629
+  },
+  {
+   "rasti": 10,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.0010250210762023926,
+   "mjaftueshmeria": 0.004645884037017822
+  },
+  {
+   "rasti": 10,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.0030223727226257324,
+   "mjaftueshmeria": 0.014141678810119629
+  },
+  {
+   "rasti": 10,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 0.0016796588897705078,
+   "mjaftueshmeria": 0.020493686199188232
+  },
+  {
+   "rasti": 10,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 0.0016796588897705078,
+   "mjaftueshmeria": 0.020493686199188232
+  },
+  {
+   "rasti": 10,
+   "gabim": 1,
+   "burimi": "anglisht",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 0.0003260970115661621,
+   "mjaftueshmeria": 0.004072469472885132
+  },
+  {
+   "rasti": 11,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.2909802794456482,
+   "mjaftueshmeria": 0.00815737247467041
+  },
+  {
+   "rasti": 11,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.30455565452575684,
+   "mjaftueshmeria": 0.0009388327598571777
+  },
+  {
+   "rasti": 11,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.2909802794456482,
+   "mjaftueshmeria": 0.00815737247467041
+  },
+  {
+   "rasti": 11,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.264165461063385,
+   "mjaftueshmeria": 0.0035955309867858887
+  },
+  {
+   "rasti": 11,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 0.3669143319129944,
+   "mjaftueshmeria": 0.00697857141494751
+  },
+  {
+   "rasti": 11,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 0.13557696342468262,
+   "mjaftueshmeria": 0.017756760120391846
+  },
+  {
+   "rasti": 11,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 0.13974481225013732,
+   "mjaftueshmeria": 0.1955643117427826
+  },
+  {
+   "rasti": 12,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": -0.028928101062774658,
+   "mjaftueshmeria": 0.00835651159286499
+  },
+  {
+   "rasti": 12,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "LIME",
+   "gjitheperfshirja": -0.02941596508026123,
+   "mjaftueshmeria": 0.3709718585014343
+  },
+  {
+   "rasti": 12,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "SHAP",
+   "gjitheperfshirja": -0.02941596508026123,
+   "mjaftueshmeria": 0.3709718585014343
+  },
+  {
+   "rasti": 12,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": -0.02505582571029663,
+   "mjaftueshmeria": -0.013893723487854004
+  },
+  {
+   "rasti": 12,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": -0.021631300449371338,
+   "mjaftueshmeria": -0.011483848094940186
+  },
+  {
+   "rasti": 12,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 0.07574725151062012,
+   "mjaftueshmeria": -0.02607119083404541
+  },
+  {
+   "rasti": 12,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": -0.01882527470588684,
+   "mjaftueshmeria": 0.03770233988761902
+  },
+  {
+   "rasti": 13,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 5.936622619628906e-05,
+   "mjaftueshmeria": 0.00027829408645629883
+  },
+  {
+   "rasti": 13,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.00011080503463745117,
+   "mjaftueshmeria": 0.00036907196044921875
+  },
+  {
+   "rasti": 13,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 4.2498111724853516e-05,
+   "mjaftueshmeria": 0.0002589225769042969
+  },
+  {
+   "rasti": 13,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 1.6987323760986328e-05,
+   "mjaftueshmeria": 0.00033789873123168945
+  },
+  {
+   "rasti": 13,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 5.936622619628906e-05,
+   "mjaftueshmeria": 0.00027829408645629883
+  },
+  {
+   "rasti": 13,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 0.00017577409744262695,
+   "mjaftueshmeria": 0.00043505430221557617
+  },
+  {
+   "rasti": 13,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 3.0094385147094725e-05,
+   "mjaftueshmeria": 0.06622402667999268
+  },
+  {
+   "rasti": 14,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.03125262260437012,
+   "mjaftueshmeria": -0.014075756072998047
+  },
+  {
+   "rasti": 14,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "LIME",
+   "gjitheperfshirja": -0.022207915782928467,
+   "mjaftueshmeria": 0.01282191276550293
+  },
+  {
+   "rasti": 14,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "SHAP",
+   "gjitheperfshirja": -0.025068163871765137,
+   "mjaftueshmeria": 0.07032632827758789
+  },
+  {
+   "rasti": 14,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.03125262260437012,
+   "mjaftueshmeria": -0.014075756072998047
+  },
+  {
+   "rasti": 14,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": -0.020404517650604248,
+   "mjaftueshmeria": 0.04899740219116211
+  },
+  {
+   "rasti": 14,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": -0.002050936222076416,
+   "mjaftueshmeria": -0.036313533782958984
+  },
+  {
+   "rasti": 14,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 0.007009518146514892,
+   "mjaftueshmeria": -0.006387346982955932
+  },
+  {
+   "rasti": 15,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.040556371212005615,
+   "mjaftueshmeria": -0.003481149673461914
+  },
+  {
+   "rasti": 15,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.0026743412017822266,
+   "mjaftueshmeria": -2.7298927307128906e-05
+  },
+  {
+   "rasti": 15,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.008560538291931152,
+   "mjaftueshmeria": -0.0041351318359375
+  },
+  {
+   "rasti": 15,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.0026743412017822266,
+   "mjaftueshmeria": -2.7298927307128906e-05
+  },
+  {
+   "rasti": 15,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 0.02541065216064453,
+   "mjaftueshmeria": -0.001924753189086914
+  },
+  {
+   "rasti": 15,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": -0.003481149673461914,
+   "mjaftueshmeria": 0.040556371212005615
+  },
+  {
+   "rasti": 15,
+   "gabim": 0,
+   "burimi": "shqip",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 0.0077098548412322995,
+   "mjaftueshmeria": 0.03206647634506225
+  },
+  {
+   "rasti": 16,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.9743998181074858,
+   "mjaftueshmeria": 0.00531083345413208
+  },
+  {
+   "rasti": 16,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.9743998181074858,
+   "mjaftueshmeria": 0.00531083345413208
+  },
+  {
+   "rasti": 16,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.06626975536346436,
+   "mjaftueshmeria": 0.003991305828094482
+  },
+  {
+   "rasti": 16,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.0007427334785461426,
+   "mjaftueshmeria": 0.011006355285644531
+  },
+  {
+   "rasti": 16,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 0.00030225515365600586,
+   "mjaftueshmeria": 0.0815477967262268
+  },
+  {
+   "rasti": 16,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 0.00030225515365600586,
+   "mjaftueshmeria": 0.0815477967262268
+  },
+  {
+   "rasti": 16,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 2.6440620422363283e-05,
+   "mjaftueshmeria": 0.7278764069080352
+  },
+  {
+   "rasti": 17,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": -4.5239925384521484e-05,
+   "mjaftueshmeria": 0.0009109377861022949
+  },
+  {
+   "rasti": 17,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "LIME",
+   "gjitheperfshirja": 3.933906555175781e-06,
+   "mjaftueshmeria": 0.00030750036239624023
+  },
+  {
+   "rasti": 17,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 3.933906555175781e-06,
+   "mjaftueshmeria": 0.00030750036239624023
+  },
+  {
+   "rasti": 17,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": -3.9637088775634766e-05,
+   "mjaftueshmeria": 0.0002250075340270996
+  },
+  {
+   "rasti": 17,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": -6.020069122314453e-05,
+   "mjaftueshmeria": 0.0010546445846557617
+  },
+  {
+   "rasti": 17,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": -5.441904067993164e-05,
+   "mjaftueshmeria": 0.0002688169479370117
+  },
+  {
+   "rasti": 17,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": -3.3462047576904296e-05,
+   "mjaftueshmeria": 0.0005422711372375488
+  },
+  {
+   "rasti": 18,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.0006804466247558594,
+   "mjaftueshmeria": 0.0005005598068237305
+  },
+  {
+   "rasti": 18,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.00016444921493530273,
+   "mjaftueshmeria": 0.0006563067436218262
+  },
+  {
+   "rasti": 18,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 2.568960189819336e-05,
+   "mjaftueshmeria": 3.7729740142822266e-05
+  },
+  {
+   "rasti": 18,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.0006804466247558594,
+   "mjaftueshmeria": 0.0005005598068237305
+  },
+  {
+   "rasti": 18,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 0.0006804466247558594,
+   "mjaftueshmeria": 0.0005005598068237305
+  },
+  {
+   "rasti": 18,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 2.092123031616211e-05,
+   "mjaftueshmeria": 0.000526726245880127
+  },
+  {
+   "rasti": 18,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 3.1113624572753906e-05,
+   "mjaftueshmeria": 0.015610092878341674
+  },
+  {
+   "rasti": 19,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 1.0371208190917969e-05,
+   "mjaftueshmeria": 0.9803040884435177
+  },
+  {
+   "rasti": 19,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.0009247064590454102,
+   "mjaftueshmeria": 0.0007797479629516602
+  },
+  {
+   "rasti": 19,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.0003801584243774414,
+   "mjaftueshmeria": 0.0010997653007507324
+  },
+  {
+   "rasti": 19,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.0006155967712402344,
+   "mjaftueshmeria": 0.0004277229309082031
+  },
+  {
+   "rasti": 19,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": -5.7220458984375e-06,
+   "mjaftueshmeria": 0.0002772808074951172
+  },
+  {
+   "rasti": 19,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": -5.7220458984375e-06,
+   "mjaftueshmeria": 0.0002772808074951172
+  },
+  {
+   "rasti": 19,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 6.365180015563965e-05,
+   "mjaftueshmeria": 0.2774021334014833
+  },
+  {
+   "rasti": 20,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.0007506012916564941,
+   "mjaftueshmeria": 0.0006014704704284668
+  },
+  {
+   "rasti": 20,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.0029921531677246094,
+   "mjaftueshmeria": -2.2590160369873047e-05
+  },
+  {
+   "rasti": 20,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.0024880170822143555,
+   "mjaftueshmeria": 0.0001372694969177246
+  },
+  {
+   "rasti": 20,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.0029802918434143066,
+   "mjaftueshmeria": -2.104043960571289e-05
+  },
+  {
+   "rasti": 20,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 0.001681685447692871,
+   "mjaftueshmeria": -3.3915042877197266e-05
+  },
+  {
+   "rasti": 20,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 0.0007506012916564941,
+   "mjaftueshmeria": 0.0006014704704284668
+  },
+  {
+   "rasti": 20,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 0.0008843004703521729,
+   "mjaftueshmeria": 0.0022793889045715334
+  },
+  {
+   "rasti": 21,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.00022101402282714844,
+   "mjaftueshmeria": 0.008764088153839111
+  },
+  {
+   "rasti": 21,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.0032404065132141113,
+   "mjaftueshmeria": 0.035569846630096436
+  },
+  {
+   "rasti": 21,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.04578447341918945,
+   "mjaftueshmeria": 0.001574695110321045
+  },
+  {
+   "rasti": 21,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.04578447341918945,
+   "mjaftueshmeria": 0.001574695110321045
+  },
+  {
+   "rasti": 21,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 0.031532466411590576,
+   "mjaftueshmeria": 0.01975458860397339
+  },
+  {
+   "rasti": 21,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 0.031532466411590576,
+   "mjaftueshmeria": 0.01975458860397339
+  },
+  {
+   "rasti": 21,
+   "gabim": 0,
+   "burimi": "anglisht",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 0.0001863241195678711,
+   "mjaftueshmeria": 0.16591990292072295
+  },
+  {
+   "rasti": 22,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Okluzion",
+   "gjitheperfshirja": 0.6168654561042786,
+   "mjaftueshmeria": 0.04306161403656006
+  },
+  {
+   "rasti": 22,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "LIME",
+   "gjitheperfshirja": 0.5642451345920563,
+   "mjaftueshmeria": 0.2689597010612488
+  },
+  {
+   "rasti": 22,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "SHAP",
+   "gjitheperfshirja": 0.5642451345920563,
+   "mjaftueshmeria": 0.2689597010612488
+  },
+  {
+   "rasti": 22,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Integrated Gradients",
+   "gjitheperfshirja": 0.11996710300445557,
+   "mjaftueshmeria": 0.3310438394546509
+  },
+  {
+   "rasti": 22,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Vëmendja (shtresa e fundit)",
+   "gjitheperfshirja": 0.034664809703826904,
+   "mjaftueshmeria": 0.2663635015487671
+  },
+  {
+   "rasti": 22,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Attention rollout",
+   "gjitheperfshirja": 0.0982103943824768,
+   "mjaftueshmeria": 0.6259249746799469
+  },
+  {
+   "rasti": 22,
+   "gabim": 1,
+   "burimi": "shqip",
+   "metoda": "Rastësore",
+   "gjitheperfshirja": 0.21578739285469056,
+   "mjaftueshmeria": 0.22562293857336044
+  }
+ ],
+ "korrelacioni_metodave": {
+  "metodat": [
+   "Okluzion",
+   "LIME",
+   "SHAP",
+   "Integrated Gradients",
+   "Vëmendja (shtresa e fundit)",
+   "Attention rollout"
+  ],
+  "spearman_mesatar": [
+   [
+    1.0,
+    0.282,
+    0.376,
+    0.356,
+    0.421,
+    0.197
+   ],
+   [
+    0.282,
+    1.0,
+    0.638,
+    0.356,
+    0.329,
+    0.102
+   ],
+   [
+    0.376,
+    0.638,
+    1.0,
+    0.342,
+    0.368,
+    0.078
+   ],
+   [
+    0.356,
+    0.356,
+    0.342,
+    1.0,
+    0.347,
+    0.263
+   ],
+   [
+    0.421,
+    0.329,
+    0.368,
+    0.347,
+    1.0,
+    0.276
+   ],
+   [
+    0.197,
+    0.102,
+    0.078,
+    0.263,
+    0.276,
+    1.0
+   ]
+  ]
+ },
+ "xai_treguesit_sipas_gjuhes": [
+  {
+   "burimi": "anglisht",
+   "lime_std_mesatar": 0.0023,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 3.9229,
+   "shap_pjesa_lokale_pm2": 0.3213,
+   "nentokene_te_fjales": 5.2,
+   "vemendja_brenda_fjales_shtresa0": 0.2935,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.44
+  },
+  {
+   "burimi": "shqip",
+   "lime_std_mesatar": 0.0052,
+   "shap_gabimi_efikasitetit": 0.0,
+   "ig_gabimi_konvergjences": 0.2757,
+   "shap_pjesa_lokale_pm2": 0.5652,
+   "nentokene_te_fjales": 3.5833,
+   "vemendja_brenda_fjales_shtresa0": 0.2792,
+   "vemendja_brenda_fjales_shtresa_fundit": 0.515
+  }
+ ],
+ "kunderfaktiket": [
+  {
+   "Kategoria": "STREET_ADDRESS",
+   "Varianti": "Origjinali shqip",
+   "Fjala": "Kavajës",
+   "Parashikimi": "O",
+   "P(kategoria)": 0.0042,
+   "Etiketimi i plotë": "—"
+  },
+  {
+   "Kategoria": "STREET_ADDRESS",
+   "Varianti": "Toponim anglisht, fjali shqip",
+   "Fjala": "Lincoln",
+   "Parashikimi": "O",
+   "P(kategoria)": 0.0333,
+   "Etiketimi i plotë": "—"
+  },
+  {
+   "Kategoria": "STREET_ADDRESS",
+   "Varianti": "Renditje angleze + numër",
+   "Fjala": "Kavajës",
+   "Parashikimi": "I-STREET_ADDRESS",
+   "P(kategoria)": 0.9947,
+   "Etiketimi i plotë": "12/B-STREET_ADDRESS Kavajës/I-STREET_ADDRESS Street/I-STREET_ADDRESS"
+  },
+  {
+   "Kategoria": "STREET_ADDRESS",
+   "Varianti": "Fjali tërësisht angleze",
+   "Fjala": "Kavaja",
+   "Parashikimi": "I-STREET_ADDRESS",
+   "P(kategoria)": 0.9969,
+   "Etiketimi i plotë": "12/B-STREET_ADDRESS Kavaja/I-STREET_ADDRESS Street/I-STREET_ADDRESS"
+  },
+  {
+   "Kategoria": "STREET_ADDRESS",
+   "Varianti": "Pa nyjën \"e\"",
+   "Fjala": "Kavajës",
+   "Parashikimi": "O",
+   "P(kategoria)": 0.0198,
+   "Etiketimi i plotë": "—"
+  },
+  {
+   "Kategoria": "STREET_ADDRESS",
+   "Varianti": "Bulevard, qytet tjetër",
+   "Fjala": "Dyrrah",
+   "Parashikimi": "O",
+   "P(kategoria)": 0.4676,
+   "Etiketimi i plotë": "5/B-STREET_ADDRESS"
+  },
+  {
+   "Kategoria": "NAME_STUDENT",
+   "Varianti": "Emër shqip, fjali shqip",
+   "Fjala": "Drilona",
+   "Parashikimi": "B-NAME_STUDENT",
+   "P(kategoria)": 0.9747,
+   "Etiketimi i plotë": "Drilona/B-NAME_STUDENT Hoxha/I-NAME_STUDENT"
+  },
+  {
+   "Kategoria": "NAME_STUDENT",
+   "Varianti": "Emër anglisht, fjali shqip",
+   "Fjala": "Emily",
+   "Parashikimi": "B-NAME_STUDENT",
+   "P(kategoria)": 0.6196,
+   "Etiketimi i plotë": "Emily/B-NAME_STUDENT Johnson/I-NAME_STUDENT"
+  },
+  {
+   "Kategoria": "NAME_STUDENT",
+   "Varianti": "Emër shqip, fjali angleze",
+   "Fjala": "Drilona",
+   "Parashikimi": "B-NAME_STUDENT",
+   "P(kategoria)": 0.9983,
+   "Etiketimi i plotë": "Drilona/B-NAME_STUDENT Hoxha/I-NAME_STUDENT"
+  },
+  {
+   "Kategoria": "NAME_STUDENT",
+   "Varianti": "Emër anglisht, fjali angleze",
+   "Fjala": "Emily",
+   "Parashikimi": "B-NAME_STUDENT",
+   "P(kategoria)": 0.9976,
+   "Etiketimi i plotë": "Emily/B-NAME_STUDENT Johnson/I-NAME_STUDENT"
+  },
+  {
+   "Kategoria": "NAME_STUDENT",
+   "Varianti": "Emër me shkronja të vogla",
+   "Fjala": "drilona",
+   "Parashikimi": "O",
+   "P(kategoria)": 0.0047,
+   "Etiketimi i plotë": "—"
+  },
+  {
+   "Kategoria": "NAME_STUDENT",
+   "Varianti": "Emër = fjalë e zakonshme (\"Bora\")",
+   "Fjala": "Bora",
+   "Parashikimi": "B-NAME_STUDENT",
+   "P(kategoria)": 0.9386,
+   "Etiketimi i plotë": "Bora/B-NAME_STUDENT"
+  },
+  {
+   "Kategoria": "PHONE_NUM",
+   "Varianti": "Format lokal shqip",
+   "Fjala": "0691122334",
+   "Parashikimi": "B-PHONE_NUM",
+   "P(kategoria)": 0.9974,
+   "Etiketimi i plotë": "0691122334/B-PHONE_NUM"
+  },
+  {
+   "Kategoria": "PHONE_NUM",
+   "Varianti": "Format ndërkombëtar +355",
+   "Fjala": "+355691122334",
+   "Parashikimi": "B-PHONE_NUM",
+   "P(kategoria)": 0.9981,
+   "Etiketimi i plotë": "+355691122334/B-PHONE_NUM"
+  },
+  {
+   "Kategoria": "PHONE_NUM",
+   "Varianti": "I ndarë me hapësira",
+   "Fjala": "069",
+   "Parashikimi": "B-PHONE_NUM",
+   "P(kategoria)": 0.9988,
+   "Etiketimi i plotë": "069/B-PHONE_NUM 112/I-PHONE_NUM 2334/I-PHONE_NUM"
+  },
+  {
+   "Kategoria": "PHONE_NUM",
+   "Varianti": "Format amerikan",
+   "Fjala": "(555)",
+   "Parashikimi": "B-PHONE_NUM",
+   "P(kategoria)": 0.9969,
+   "Etiketimi i plotë": "(555)/B-PHONE_NUM 123-4567/I-PHONE_NUM"
+  },
+  {
+   "Kategoria": "PHONE_NUM",
+   "Varianti": "I njëjti numër, fjali angleze",
+   "Fjala": "0691122334",
+   "Parashikimi": "B-PHONE_NUM",
+   "P(kategoria)": 0.9984,
+   "Etiketimi i plotë": "0691122334/B-PHONE_NUM"
+  },
+  {
+   "Kategoria": "PHONE_NUM",
+   "Varianti": "Pa fjalën \"numri\"",
+   "Fjala": "0691122334",
+   "Parashikimi": "B-PHONE_NUM",
+   "P(kategoria)": 0.998,
+   "Etiketimi i plotë": "0691122334/B-PHONE_NUM"
+  },
+  {
+   "Kategoria": "EMAIL",
+   "Varianti": "Email me domen .com",
+   "Fjala": "drilona.hoxha@gmail.com",
+   "Parashikimi": "O",
+   "P(kategoria)": 0.0005,
+   "Etiketimi i plotë": "—"
+  },
+  {
+   "Kategoria": "EMAIL",
+   "Varianti": "Email me domen .al",
+   "Fjala": "d.hoxha@upt.al",
+   "Parashikimi": "B-EMAIL",
+   "P(kategoria)": 0.9901,
+   "Etiketimi i plotë": "d.hoxha@upt.al/B-EMAIL"
+  },
+  {
+   "Kategoria": "EMAIL",
+   "Varianti": "I njëjti email, fjali angleze",
+   "Fjala": "drilona.hoxha@gmail.com",
+   "Parashikimi": "B-EMAIL",
+   "P(kategoria)": 0.9901,
+   "Etiketimi i plotë": "drilona.hoxha@gmail.com/B-EMAIL"
+  },
+  {
+   "Kategoria": "EMAIL",
+   "Varianti": "Email i shkruar me fjalë",
+   "Fjala": "drilona.hoxha",
+   "Parashikimi": "B-USERNAME",
+   "P(kategoria)": 0.0331,
+   "Etiketimi i plotë": "drilona.hoxha/B-USERNAME"
+  }
+ ],
+ "krahasimi_me_2_epoka": [
+  {
+   "Seti": "Anglisht (brenda shpërndarjes)",
+   "F1 – 2 epoka": 0.976,
+   "F1 – ndalim i hershëm (epoka 6)": 0.982
+  },
+  {
+   "Seti": "Shqip (OOD)",
+   "F1 – 2 epoka": 0.594,
+   "F1 – ndalim i hershëm (epoka 6)": 0.543
+  }
+ ],
+ "konfigurimi": {
+  "MODEL_NAME": "roberta-base",
+  "EPOCHS_MAX": 8,
+  "PATIENCE": 2,
+  "LR": 2e-05,
+  "BATCH": 8,
+  "WEIGHT_DECAY": 0.01,
+  "MAX_LEN": 512,
+  "STRIDE": 128,
+  "SEED": 42,
+  "n_train_docs": 3547,
+  "n_test_docs": 887,
+  "n_rastesh_xai": 22
+ }
+}

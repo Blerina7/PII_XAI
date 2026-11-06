@@ -1,0 +1,15 @@
+Remove-Item .gitignore, .gitignore.txt -ErrorAction SilentlyContinue
+@"
+outputs/**/model/
+outputs/models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+venv/
+.venv/
+__pycache__/
+node_modules/
+~`$*
+"@ | Out-File -FilePath .gitignore -Encoding utf8NoBOM
